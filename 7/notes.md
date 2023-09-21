@@ -44,3 +44,15 @@ reasoning: 0
   - test-6
   - test-8
   - test-12 (false positive)
+
+- thebloke llama2 70b (1_)
+  - probleme mit tokens -> viele abstuerze
+    - anderer tokenizer, move token cap to 512
+  - 2/13 geschafft
+  
+
+- falcon-180b
+  - viele timeouts nach 2minuten
+  - eher texte, keine commands
+
+- thebloke llama2 v2, safety margin 128->512
