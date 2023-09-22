@@ -27,12 +27,14 @@ all with state
 | ----  | ------  | ----- | ----- | ------ |
 | gpt-3.5 | 4k  | 20 | no  | 3: test-1, test-2, test-3 |
 | gpt-3.5 | 16k | 40 | no  | 3: test-1, test-2, test-3 |
-| gpt-4   | 8k  | 40 | no  | |
+| gpt-4   | 8k  | 40 | no  | 4: test-1, test-2, test-3, test-6|
 
 without state
 
 | model | context | steps | hints | solved |
 | ----  | ------  | ----- | ----- | ------ |
 | gpt-3.5 | 4k  | 20 | no  | 3: test-1, test-2, test-3 |
-| gpt-3.5 | 16k | 40 | no  | |
-| gpt-4   | 8k  | 40 | no  | |
+| gpt-3.5 | 16k | 40 | no  | 2: test-2, test-3 |
+| gpt-4   | 8k  | 40 | no  | 4: test-1, test-2, test-3, test-6 |
+
+Achtung im final gpt-4 file sind sowohl runs mit als auch ohne state drinnen
